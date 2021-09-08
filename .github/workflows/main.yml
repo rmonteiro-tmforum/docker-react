@@ -20,4 +20,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/docker-react@v1
+        uses: ./
