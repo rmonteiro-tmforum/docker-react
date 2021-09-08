@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Testing the dockerized react application
     steps:
+      - uses: actions/checkout@v2
+    
       - name: Hello world action step
         id: hello
         uses: ./
